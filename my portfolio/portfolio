@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="pot.css">
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu"></i>
+        <nav class="navbar">
+            <a href="#HOME" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#qua">Qualifications</a>
+            <a href="#exp">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hii, It's Me</h3>
+            <h1>Priya</h1>
+            <h3>I'm a <span>Frontend Developer</span> </h3>
+            <p></p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="#" class="btn">Resume</a>
+        </div>
+        <div class="home-img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnG9iO_2HrfI3TUqt8olAl8V5a_exYDGXklg&usqp=CAU" alt="">       
+        </div>
+    </section>
+</body>
+</html>
